@@ -1,9 +1,9 @@
 import axios from "axios";
 import { userNotAuthorized } from "../effector/user/authorization";
 
-export const API_URL = "http://localhost:8000/api/";
+export const API_URL = "http://212.193.55.28:8000/api/";
 // export const API_URL = "https://admin.tt-crm.ru/api/";
-export const API = "http://localhost:8000";
+export const API = "http://212.193.55.28:8000";
 // export const API = "https://admin.tt-crm.ru";
 
 const $api = axios.create({

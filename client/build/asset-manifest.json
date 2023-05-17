@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.291772e2.css",
-    "main.js": "/static/js/main.1f7e5c5d.js",
+    "main.js": "/static/js/main.0308c773.js",
     "static/media/pts.svg": "/static/media/pts.8b913b2bbe16439f48b02170ef1e60c7.svg",
     "static/media/biznes-airlines-samoliot.jpg": "/static/media/biznes-airlines-samoliot.105b8e2d729137531306.jpg",
     "static/media/user-2.svg": "/static/media/user-2.b4e4cbce55a3e2369bb10b50becb4cbf.svg",
@@ -66,10 +66,10 @@
     "static/media/rec.svg": "/static/media/rec.778cd218485ee0986b24d8ab6352291a.svg",
     "static/media/select-zone-color.svg": "/static/media/select-zone-color.778cd218485ee0986b24d8ab6352291a.svg",
     "main.291772e2.css.map": "/static/css/main.291772e2.css.map",
-    "main.1f7e5c5d.js.map": "/static/js/main.1f7e5c5d.js.map"
+    "main.0308c773.js.map": "/static/js/main.0308c773.js.map"
   },
   "entrypoints": [
     "static/css/main.291772e2.css",
-    "static/js/main.1f7e5c5d.js"
+    "static/js/main.0308c773.js"
   ]
 }
