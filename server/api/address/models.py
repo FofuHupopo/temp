@@ -332,24 +332,24 @@ class HubZone(models.Model):
 
 
 class CitySearchSelect:
-    regions = set(City.objects.values_list('region', flat=True))
-    cities = {
-        region: set(City.objects.filter(
-            region=region
-        ).values_list("city", flat=True))
-        for region in regions
-    }
+    # regions = set(City.objects.values_list('region', flat=True))
+    # cities = {
+    #     region: set(City.objects.filter(
+    #         region=region
+    #     ).values_list("city", flat=True))
+    #     for region in regions
+    # }
 
     @staticmethod
     def update():
-        CitySearchSelect.regions = set(City.objects.values_list('region', flat=True))
-        CitySearchSelect.cities = {
-            region: set(City.objects.filter(
-                region=region
-            ).values_list("city", flat=True))
-            for region in CitySearchSelect.regions
-        }
-
+        # CitySearchSelect.regions = set(City.objects.values_list('region', flat=True))
+        # CitySearchSelect.cities = {
+        #     region: set(City.objects.filter(
+        #         region=region
+        #     ).values_list("city", flat=True))
+        #     for region in CitySearchSelect.regions
+        # }
+        ...
 
 @receiver([post_save, post_delete], sender=City)
 def new_city_reciver(sender, instance, **kwargs):

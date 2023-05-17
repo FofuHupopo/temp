@@ -42,8 +42,8 @@ INSTALLED_APPS = [
     'map.apps.MapConfig',
 
     # api
-    'api.authentication',
     'api.address',
+    'api.authentication',
     'api.activityFeed',
     'api.adminInterface',
     'api.cars',
@@ -227,13 +227,17 @@ CORS_EXPOSE_HEADERS = [
 # )
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #     'NAME': 'tt_transfer',
+    #     'USER': 'admin',
+    #     'PASSWORD': 'admin',
+    #     'HOST': 'localhost',
+    #     'PORT': '5432'
+    # },
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'tt_transfer',
-        'USER': 'admin',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
-        'PORT': '5432'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR + 'db.sqlite3',
     }
 }
 
