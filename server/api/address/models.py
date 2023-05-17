@@ -350,6 +350,7 @@ class CitySearchSelect:
             for region in CitySearchSelect.regions
         }
 
+
 @receiver([post_save, post_delete], sender=City)
 def new_city_reciver(sender, instance, **kwargs):
     CitySearchSelect.update()
