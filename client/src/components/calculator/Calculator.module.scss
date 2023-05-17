@@ -1,0 +1,66 @@
+.selectCity {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	label {
+		font-size: 16px;
+		width: 130px;
+		height: 40px;
+		margin: 0 !important;
+		display: flex;
+		align-items: center;
+	}
+	input {
+		width: 300px;
+		height: 40px;
+		outline: none;
+		background: #e8e8e8;
+		border-radius: 3px;
+		border: none;
+		padding: 0 10px;
+		font-weight: 400;
+		font-size: 16px;
+	}
+}
+
+.citySelectWrap {
+	position: relative;
+}
+
+.citySelect {
+	position: absolute;
+	top: calc(100% + 15px);
+	left: 0;
+	max-height: 200px;
+	width: 100%;
+	box-sizing: border-box;
+	background: #fff;
+	z-index: 10000;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+	overflow-y: auto;
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			padding: 13px;
+			box-sizing: border-box;
+			cursor: pointer;
+			transition: background-color 0.2s ease-in;
+		}
+		li:hover {
+			background-color: #d7d7d7;
+		}
+	}
+}
+
+.accordionButton {
+	border: none;
+	box-sizing: border-box;
+	border-radius: 3px;
+	height: 50px;
+	font-size: 16px;
+	padding-left: 10px;
+	cursor: pointer;
+}

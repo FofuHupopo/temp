@@ -1,0 +1,46 @@
+td {
+	width: 190px;
+}
+
+.blue-zone {
+	background: #337AB7;
+	position: relative;
+}
+
+.green-zone {
+	background: #8DC73F;
+	position: relative;
+}
+
+.red-zone {
+	background: #DB5454;
+	position: relative;
+}
+
+.yellow-zone {
+	background: yellow;
+	position: relative;
+}
+
+.orange-zone {
+	background: orange;
+	position: relative;
+}
+.tariff-price-wrap {
+	position: relative;
+
+	img {
+		position: absolute;
+	}
+}
+
+.tariff-price-input {
+	width: 70px;
+	margin-left: 19px;
+	box-sizing: border-box;
+}
+
+.scroll-table-body-tariff {
+	overflow-x: auto;
+}
+
